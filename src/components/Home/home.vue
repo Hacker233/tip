@@ -1,19 +1,29 @@
 <template>
-    <div class="wrapper">
-        <home></home>
+    <div class="home-wwrapper">
+        <Header></Header>
+        <div class="home-content">        </div>
+        <Footer></Footer>
     </div>
 </template>
 <script>
-import home from '../luHeader.vue'
+import Header from '../luHeader.vue'
+import Footer from '../luFooter.vue'
 export default {
   data () {
-
+    return {}
   },
   components: {
-    home
+    Header,
+    Footer
   }
 }
 </script>
 <style>
-
+.home-content {
+  width: 750px;
+}
+.home-content img {
+  width: 750px;
+  height: 700px;
+}
 </style>
