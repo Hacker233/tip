@@ -1,7 +1,7 @@
 <template>
     <div class="home-wwrapper">
         <Header></Header>
-        <div class="home-content">        </div>
+        <div class="home-content"></div>
         <Footer></Footer>
     </div>
 </template>
@@ -18,7 +18,7 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
 .home-content {
   width: 750px;
 }

@@ -27,7 +27,7 @@ export default {
     letter-spacing: 30px;
     font-size: 40px;
     font-weight: 400;
-    color: #ffffff;
-    font-family: '微软雅黑';
+    color: #ebd0d0;
+    font-family: 'titleLu';
 }
 </style>
