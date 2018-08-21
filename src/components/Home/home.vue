@@ -1,29 +1,40 @@
 <template>
     <div class="home-wwrapper">
         <Header></Header>
-        <div class="home-content"></div>
+        <div class="home-content">
+          <Write></Write>
+          <Movie></Movie>
+          <Book></Book>
+          <Music></Music>
+        </div>
         <Footer></Footer>
     </div>
 </template>
 <script>
 import Header from '../luHeader.vue'
 import Footer from '../luFooter.vue'
+import Write from '../content/write.vue'
+import Movie from '../content/movie.vue'
+import Book from '../content/book.vue'
+import Music from '../content/music.vue'
+
 export default {
   data () {
     return {}
   },
   components: {
     Header,
-    Footer
+    Footer,
+    Write,
+    Movie,
+    Book,
+    Music
   }
 }
 </script>
 <style scoped>
 .home-content {
-  width: 750px;
-}
-.home-content img {
-  width: 750px;
-  height: 700px;
+  width: 100%;
+  padding-top: 220px;
 }
 </style>

@@ -21,8 +21,11 @@ export default {
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 }
+.foot-wrapper .iconfont:nth-child(1) {
+    float: left;
+    margin-left: 30px;
+}
 .foot-wrapper .iconfont:nth-child(2) {
-    margin: 0px 190px 0 190px;
     font-size: 60px;
     display: inline-block;
     border: 3px #ffffff solid;
@@ -31,8 +34,12 @@ export default {
     width: 100px;
     border-radius: 100%;
 }
+.foot-wrapper .iconfont:nth-child(3) {
+    float: right;
+    margin-right: 30px;
+}
 .foot-wrapper {
-    width: 750px;
+    width: 100%;
     height: 130px;
     position: fixed;
     left: 0px;

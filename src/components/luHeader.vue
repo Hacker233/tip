@@ -12,7 +12,7 @@ export default {
 <style>
 
 .header-wrapper {
-    width: 750px;
+    width: 100%;
     height: 100px;
     background-color: rgba(61, 89, 180,0.5);
     text-align: center;
