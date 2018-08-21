@@ -1,14 +1,17 @@
 <template>
-    <div class="content-4">
-        <img :src="musicImgUrl" alt="">
+    <div class="content-4 content" :style="musicImgUrl">
+        <p class="commont-p">我爱音乐</p>
+        <i class="iconfont">&#xe614;</i>
     </div>
 </template>
 <script>
-import musicImgUrl from '../../assets/contentImg/music.jpg'
 export default {
   data () {
     return {
-      musicImgUrl: musicImgUrl
+      musicImgUrl: {
+        backgroundImage: 'url(' + require('../../assets/contentImg/music-1.jpg') + ')',
+        backgroundSize: '300px 200px'
+      }
     }
   }
 }
@@ -16,13 +19,11 @@ export default {
 
 <style>
 .content-4 {
+    text-align: center;
     float: left;
     width: 300px;
     height: 400px;
     background-color: #fff;
 }
-.content-4 img {
-    width: 300px;
-    height: 400px;
-}
+
 </style>

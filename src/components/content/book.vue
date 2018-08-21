@@ -1,15 +1,18 @@
 <template>
-    <div class="content-3">
-        <img :src="bookImgUrl" alt="">
+    <div class="content-3 content" :style="bookImgUrl">
+        <p class="commont-p">精彩阅读</p>
+        <i class="iconfont">&#xe62e;</i>
     </div>
 </template>
 <script>
-import bookImgUrl from '../../assets/contentImg/book.jpg'
 
 export default {
   data () {
     return {
-      bookImgUrl: bookImgUrl
+      bookImgUrl: {
+        backgroundImage: 'url(' + require('../../assets/contentImg/book.jpg') + ')',
+        backgroundSize: '200px 300px'
+      }
     }
   }
 }
@@ -17,15 +20,13 @@ export default {
 
 <style>
 .content-3 {
+    text-align: center;
     float: left;
-    margin-left: 50px;
+    margin-left: 45px;
     margin-right: 50px;
     width: 300px;
     height: 400px;
     background-color: #fff;
 }
-.content-3 img {
-    width: 300px;
-    height: 400px;
-}
+
 </style>

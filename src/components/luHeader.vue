@@ -25,9 +25,9 @@ export default {
 .header-wrapper p {
     line-height: 100px;
     letter-spacing: 30px;
-    font-size: 40px;
-    font-weight: 400;
-    color: #ebd0d0;
-    font-family: 'titleLu';
+    font-size: 50px;
+    font-weight: 600;
+    color: rgba(248, 248, 248, 0.9);
+    font-family: cursive;
 }
 </style>

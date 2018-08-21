@@ -1,14 +1,17 @@
 <template>
-    <div class="content-1">
-        <img :src="writeImgUrl" alt="">
+    <div class="content-1 content" :style="writeImgUrl">
+        <p class="commont-p">我的创作</p>
+        <i class="iconfont">&#xe702;</i>
     </div>
 </template>
 <script>
-import writeImgUrl from '../../assets/contentImg/write.jpg'
 export default {
   data () {
     return {
-      writeImgUrl: writeImgUrl
+      writeImgUrl: {
+        backgroundImage: 'url(' + require('../../assets/contentImg/write.jpg') + ')',
+        backgroundSize: '200px 200px'
+      }
     }
   }
 }
@@ -17,16 +20,14 @@ export default {
 <style>
 .content-1 {
     overflow: hidden;
-    margin-left: 50px;
+    margin-left: 45px;
     margin-right: 50px;
     margin-bottom: 50px;
     float: left;
     width: 300px;
     height: 400px;
     background-color: #fff;
+    text-align: center;
 }
-.content-1 img {
-    width: 300px;
-    height: 400px;
-}
+
 </style>

@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'iconfont';  /* project id 800387 */
-    src: url('//at.alicdn.com/t/font_800387_up30fhb4gh9.eot');
-    src: url('//at.alicdn.com/t/font_800387_up30fhb4gh9.eot?#iefix') format('embedded-opentype'),
-    url('//at.alicdn.com/t/font_800387_up30fhb4gh9.woff') format('woff'),
-    url('//at.alicdn.com/t/font_800387_up30fhb4gh9.ttf') format('truetype'),
-    url('//at.alicdn.com/t/font_800387_up30fhb4gh9.svg#iconfont') format('svg');
-}
+    src: url('//at.alicdn.com/t/font_800387_bk10z24jxsf.eot');
+    src: url('//at.alicdn.com/t/font_800387_bk10z24jxsf.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_800387_bk10z24jxsf.woff') format('woff'),
+    url('//at.alicdn.com/t/font_800387_bk10z24jxsf.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_800387_bk10z24jxsf.svg#iconfont') format('svg');
+  }
 @font-face {
-    font-family: 'titleLu';
-    src: url('../font/Capsuula.ttf');
+    font-family: 'xingkaiti';
+    src: url('../font/xingkaiti.ttf');
     font-size: 30px;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
