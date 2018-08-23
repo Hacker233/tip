@@ -7,7 +7,9 @@
 </template>
 <script>
 export default {
-  data () {}
+  data () {
+    return {}
+  }
 }
 </script>
 <style>

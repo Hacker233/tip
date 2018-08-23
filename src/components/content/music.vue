@@ -10,7 +10,8 @@ export default {
     return {
       musicImgUrl: {
         backgroundImage: 'url(' + require('../../assets/contentImg/music-1.jpg') + ')',
-        backgroundSize: '300px 200px'
+        backgroundSize: '300px 200px',
+        opacity: '0.9'
       }
     }
   }
@@ -23,7 +24,6 @@ export default {
     float: left;
     width: 300px;
     height: 400px;
-    background-color: #fff;
 }
 
 </style>

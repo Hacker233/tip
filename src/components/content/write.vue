@@ -1,6 +1,6 @@
 <template>
     <div class="content-1 content" :style="writeImgUrl">
-        <p class="commont-p">我的创作</p>
+        <p class="commont-p">{{title}}</p>
         <i class="iconfont">&#xe702;</i>
     </div>
 </template>
@@ -10,8 +10,10 @@ export default {
     return {
       writeImgUrl: {
         backgroundImage: 'url(' + require('../../assets/contentImg/write.jpg') + ')',
-        backgroundSize: '200px 200px'
-      }
+        backgroundSize: '200px 200px',
+        opacity: '0.9'
+      },
+      title: '我的创作'
     }
   }
 }
@@ -26,7 +28,6 @@ export default {
     float: left;
     width: 300px;
     height: 400px;
-    background-color: #fff;
     text-align: center;
 }
 

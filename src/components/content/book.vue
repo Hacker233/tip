@@ -11,7 +11,8 @@ export default {
     return {
       bookImgUrl: {
         backgroundImage: 'url(' + require('../../assets/contentImg/book.jpg') + ')',
-        backgroundSize: '200px 300px'
+        backgroundSize: '200px 300px',
+        opacity: '0.9'
       }
     }
   }
@@ -26,7 +27,6 @@ export default {
     margin-right: 50px;
     width: 300px;
     height: 400px;
-    background-color: #fff;
 }
 
 </style>
